@@ -425,25 +425,25 @@ button:hover {
 
 .tree-left {
     left: 1%;
-    bottom: 20%;
+    bottom: 50%;
 
     width: min(20vw, 280px);
     height: min(35vh, 300px);
 
-    transform: translateX(-120%);
+    transform: translateX(-80%);
 }
 
 
 /* 🌳 ÁRBOL / IMAGEN DERECHA */
 
 .tree-right {
-    right: 1%;
-    bottom: 12%;
+    right: 2%;
+    bottom: 20%;
 
     width: min(25vw, 330px);
     height: min(45vh, 400px);
 
-    transform: translateX(90%);
+    transform: translateX(100%);
 }
 
 
