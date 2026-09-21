@@ -437,7 +437,7 @@ button:hover {
 /* 🌳 ÁRBOL / IMAGEN DERECHA */
 
 .tree-right {
-    right: 2%;
+    right: 50%;
     bottom: 10%;
 
     width: min(15vw, 230px);
@@ -830,7 +830,7 @@ button:hover {
     /* ─────────────── LUNA ─────────────── */
 
     .moon {
-        width: 65px;
+        width: 85px;
 
         top: 6%;
         right: 7%;
