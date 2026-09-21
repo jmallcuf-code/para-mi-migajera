@@ -816,38 +816,187 @@ button:hover {
 
 /* =========================================================
    📱 CONFIGURACIÓN PARA CELULARES
-   ========================================================= */
-
+   ========================================================= 
 @media (max-width: 600px) {
+
+    /* ─────────────── PANTALLA ─────────────── */
+
+    .scene {
+        width: 100%;
+        height: 100dvh;
+    }
+
 
     /* ─────────────── LUNA ─────────────── */
 
     .moon {
+        width: 55px;
+
+        top: 6%;
         right: 7%;
-        top: 7%;
+    }
+
+
+    /* ─────────────── ESTRELLAS ─────────────── */
+
+    .star {
+        width: 2px;
+        height: 2px;
     }
 
 
     /* ─────────────── INTRODUCCIÓN ─────────────── */
 
     .intro {
-        top: 8%;
+        top: 10%;
+
+        width: 90%;
+
+        padding:
+            0 10px;
     }
 
 
-    /* ─────────────── ÁRBOL ─────────────── */
+    .eyebrow {
+        font-size: 11px;
 
-    .tree {
+        letter-spacing: 2px;
+    }
+
+
+    h1 {
+        font-size:
+            clamp(
+                34px,
+                10vw,
+                52px
+            );
+    }
+
+
+    #subtitle {
+        width: 100%;
+
+        font-size: 17px;
+
+        line-height: 1.45;
+    }
+
+
+    /* ─────────────── BOTÓN ─────────────── */
+
+    button {
+        padding:
+            13px 21px;
+
+        font-size: 15px;
+    }
+
+
+    /* ─────────────── ÁRBOLES ─────────────── */
+
+    .trees {
+        width: 100%;
+        height: 100%;
+    }
+
+
+    /* 🌳 ÁRBOL PRINCIPAL */
+
+    .tree-main {
+        left: 50%;
+
+        bottom: 8%;
+
+        width: 80vw;
+        height: 55vh;
+
+        transform:
+            translateX(-50%);
+    }
+
+
+    /* 🌳 ÁRBOL IZQUIERDO */
+
+    .tree-left {
+        left: 7%;
+
         bottom: 9%;
 
-        width: 88vw;
-        height: 57vh;
+        width: 50vw;
+        height: 43vh;
+
+        transform:
+            translateX(-50%);
     }
 
 
-    /* ─────────────── TARJETA ─────────────── */
+    /* 🌳 ÁRBOL DERECHO */
+
+    .tree-right {
+        right: 7%;
+
+        bottom: 9%;
+
+        width: 50vw;
+        height: 43vh;
+
+        transform:
+            translateX(50%);
+    }
+
+
+    /* ─────────────── GIRASOLES ─────────────── */
+
+    .sunflower {
+        transform-origin:
+            center center;
+    }
+
+
+    /* ─────────────── MENSAJE FINAL ─────────────── */
+
+    .final-message {
+        padding: 15px;
+    }
+
 
     .card {
-        padding: 28px 20px;
+        width: 92%;
+
+        padding:
+            25px 18px;
+
+        border-radius: 22px;
+    }
+
+
+    .sunflower-icon {
+        font-size: 42px;
+    }
+
+
+    .card h2 {
+        font-size: 30px;
+    }
+
+
+    .card p {
+        font-size: 17px;
+
+        line-height: 1.45;
+    }
+
+
+    /* ─────────────── TEXTO INFERIOR ─────────────── */
+
+    .tap-again {
+        width: 90%;
+
+        text-align: center;
+
+        bottom: 3%;
+
+        font-size: 12px;
     }
 }
