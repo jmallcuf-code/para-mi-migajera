@@ -438,12 +438,12 @@ button:hover {
 
 .tree-right {
     right: 2%;
-    bottom: 20%;
+    bottom: 10%;
 
     width: min(15vw, 230px);
     height: min(35vh, 300px);
 
-    transform: translateX(100%);
+    transform: translate(-50%,100PX);
 }
 
 
@@ -906,7 +906,7 @@ button:hover {
     .tree-main {
         left: 50%;
 
-        bottom: -20%;
+        bottom: 0.5%;
 
         width: 80vw;
         height: 55vh;
