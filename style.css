@@ -412,7 +412,7 @@ button:hover {
 
 .tree-main {
     left: 50%;
-    bottom: -80%;
+    bottom: 70%;
 
     width: min(65vw, 750px);
     height: min(82vh, 750px);
