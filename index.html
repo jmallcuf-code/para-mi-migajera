@@ -1,0 +1,238 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+
+    <!-- =====================================================
+         ⚙️ CONFIGURACIÓN BÁSICA
+         ===================================================== -->
+
+    <meta charset="UTF-8">
+
+    <meta
+        name="viewport"
+        content="width=device-width, initial-scale=1.0"
+    >
+
+    <meta
+        name="theme-color"
+        content="#101b2d"
+    >
+
+
+    <!-- =====================================================
+         📝 TÍTULO DE LA PESTAÑA
+         ===================================================== -->
+
+    <title>Un pequeño detalle pa ti</title>
+
+
+    <!-- =====================================================
+         🎨 CONECTAR CSS
+         ===================================================== -->
+
+    <link
+        rel="stylesheet"
+        href="style.css"
+    >
+
+</head>
+
+
+<body>
+
+    <!-- =====================================================
+         🌌 ESCENA COMPLETA
+         ===================================================== -->
+
+    <main
+        class="scene"
+        id="scene"
+    >
+
+
+        <!-- =================================================
+             🌅 BRILLO DEL CIELO
+             ================================================= -->
+
+        <div class="sky-glow"></div>
+
+
+        <!-- =================================================
+             🌕 LUNA
+             ================================================= -->
+
+        <div class="moon"></div>
+
+
+        <!-- =================================================
+             ⭐ ESTRELLAS
+             ================================================= -->
+
+        <div
+            class="stars"
+            id="stars"
+        ></div>
+
+
+        <!-- =================================================
+             📝 PRESENTACIÓN INICIAL
+             ================================================= -->
+
+        <section
+            class="intro"
+            id="intro"
+        >
+
+            <!-- Texto pequeño superior -->
+
+            <p class="eyebrow">
+                Un pequeño detalle pa ti
+            </p>
+
+
+            <!-- Título principal -->
+
+            <h1 id="title"></h1>
+
+
+            <!-- Subtítulo -->
+
+            <p id="subtitle"></p>
+
+
+            <!-- Botón -->
+
+            <button id="startButton">
+                🌻 Toca para verlo 🌻
+            </button>
+
+        </section>
+
+
+        <!-- =================================================
+             🌻 JARDÍN
+             ================================================= -->
+
+        <div
+            class="garden"
+            id="garden"
+        >
+
+
+            <!-- =================================================
+                 🌱 SUELO
+                 ================================================= -->
+
+            <div class="ground-glow"></div>
+
+
+            <!-- =================================================
+                 🌳 ÁRBOL
+                 ================================================= -->
+
+           <div class="tree">
+              <img
+        src="arbol.png"
+        alt="Árbol principal"
+        class="tree-image tree-main"
+    >
+
+    <img
+        src="Ali1.png"
+        alt="Árbol adicional"
+        class="tree-image tree-left"
+    >
+
+    <img
+        src="Ali2.png"
+        alt="Árbol adicional"
+        class="tree-image tree-right"
+    >
+
+           </div>
+
+          
+
+            <!-- =================================================
+                 🌻 CONTENEDOR DE GIRASOLES
+                 ================================================= -->
+
+            <div id="flowers"></div>
+
+
+            <!-- =================================================
+                 🌼 CONTENEDOR DE PÉTALOS
+                 ================================================= -->
+
+            <div id="petals"></div>
+
+        </div>
+
+
+        <!-- =====================================================
+             💌 MENSAJE FINAL
+             ===================================================== -->
+
+        <section
+            class="final-message"
+            id="finalMessage"
+        >
+
+            <div class="card">
+
+
+                <!-- Girasol -->
+
+                <div class="sunflower-icon">
+                    🌻🌻🌻
+                </div>
+
+
+                <!-- Título final -->
+
+                <h2 id="finalTitle"></h2>
+
+
+                <!-- Texto final -->
+
+                <p id="finalText"></p>
+
+
+                <!-- Firma -->
+
+                <span id="signature"></span>
+
+            </div>
+
+        </section>
+
+
+        <!-- =====================================================
+             👆 MENSAJE INFERIOR
+             ===================================================== -->
+
+        <div
+            class="tap-again"
+            id="tapAgain"
+        >
+            Toca los girasoles 🌻
+        </div>
+
+
+    </main>
+
+
+    <!-- =========================================================
+         ⚙️ CONECTAR JAVASCRIPT
+         ========================================================= -->
+
+<audio id="backgroundMusic" loop>
+    <source src="flores.mp3" type="audio/mpeg">
+</audio>
+
+    <script src="script.js"></script>
+
+</body>
+
+</html>
