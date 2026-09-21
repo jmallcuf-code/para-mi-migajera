@@ -443,7 +443,7 @@ button:hover {
     width: min(15vw, 230px);
     height: min(35vh, 300px);
 
-    transform: translate(100%,10PX);
+    transform: translate(250PX,10PX);
 }
 
 
