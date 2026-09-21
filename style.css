@@ -437,13 +437,13 @@ button:hover {
 /* 🌳 ÁRBOL / IMAGEN DERECHA */
 
 .tree-right {
-    right: 50%;
-    bottom: 10%;
+    right: 10%;
+    bottom: 20%;
 
     width: min(15vw, 230px);
     height: min(35vh, 300px);
 
-    transform: translate(50%,100PX);
+    transform: translate(100%,10PX);
 }
 
 
