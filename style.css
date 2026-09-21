@@ -412,7 +412,7 @@ button:hover {
 
 .tree-main {
     left: 50%;
-    bottom: 20%;
+    bottom: 0%;
 
     width: min(65vw, 750px);
     height: min(82vh, 750px);
@@ -425,7 +425,7 @@ button:hover {
 
 .tree-left {
     left: 1%;
-    bottom: 70%;
+    bottom: 20%;
 
     width: min(20vw, 280px);
     height: min(35vh, 300px);
@@ -830,7 +830,7 @@ button:hover {
     /* ─────────────── LUNA ─────────────── */
 
     .moon {
-        width: 55px;
+        width: 65px;
 
         top: 6%;
         right: 7%;
@@ -912,7 +912,7 @@ button:hover {
         height: 55vh;
 
         transform:
-            translateX(-50%);
+            translateX(-10%);
     }
 
 
@@ -921,7 +921,7 @@ button:hover {
     .tree-left {
         left: 7%;
 
-        bottom: 50%;
+        bottom: 70%;
 
         width: 50vw;
         height: 43vh;
@@ -936,7 +936,7 @@ button:hover {
     .tree-right {
         right: 7%;
 
-        bottom: 9%;
+        bottom: 15%;
 
         width: 50vw;
         height: 43vh;
