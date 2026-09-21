@@ -412,7 +412,7 @@ button:hover {
 
 .tree-main {
     left: 50%;
-    bottom: 2%;
+    bottom: -10%;
 
     width: min(65vw, 750px);
     height: min(82vh, 750px);
@@ -425,7 +425,7 @@ button:hover {
 
 .tree-left {
     left: 1%;
-    bottom: 50%;
+    bottom: 70%;
 
     width: min(20vw, 280px);
     height: min(35vh, 300px);
@@ -440,8 +440,8 @@ button:hover {
     right: 2%;
     bottom: 20%;
 
-    width: min(25vw, 330px);
-    height: min(45vh, 400px);
+    width: min(15vw, 230px);
+    height: min(35vh, 300px);
 
     transform: translateX(100%);
 }
