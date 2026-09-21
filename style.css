@@ -417,7 +417,7 @@ button:hover {
     width: min(65vw, 750px);
     height: min(82vh, 750px);
 
-    transform: translate(-50%,50%);
+    transform: translate(-50%,100px);
 }
 
 
